@@ -85,5 +85,6 @@ def write_xlsx(data):
         e += 1
     workbook.close() # Сохраняем и завершаем работу с файлом
 
-asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
-asyncio.run(main())
+if __name__ == '__main__':
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+    asyncio.run(main())
