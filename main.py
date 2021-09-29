@@ -4,7 +4,7 @@ import asyncio
 from fake_useragent import UserAgent
 import xlsxwriter
 
-cookie = '' # Сюда ваши куки(если требуются)
+cookie = '' # Сюда ваши куки
 data = []  # Массив со всеми данными
 
 
